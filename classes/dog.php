@@ -4,7 +4,12 @@ class Dog extends Pet
 {
     function fetch()
     {
-        echo "<p>" . $this->name . "is fetching.</p>";
+        echo "<p>" . $this->getName() . " is fetching.</p>";
+    }
+
+    function talk()
+    {
+        echo $this->getName() . " is barking";
     }
 }
 // end of dog class

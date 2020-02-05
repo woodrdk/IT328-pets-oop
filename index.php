@@ -23,9 +23,11 @@ $f3->route('GET /', function($f3) {
         $pet2 = new Pet();
         //$pet2->eat();
         //var_dump($pet1);
+        $dog = new Dog("Zoe");
         $pet2->setName("Igor");
         $f3->set('pet1',$pet1);
         $f3->set('pet2',$pet2);
+        $f3->set('dog', $dog);
 
     $view = new Template();
     echo $view->render('views/my-pets.html');
