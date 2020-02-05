@@ -23,7 +23,7 @@ $f3->route('GET /', function($f3) {
         $pet2 = new Pet();
         //$pet2->eat();
         //var_dump($pet1);
-
+        $pet2->setName("Igor");
         $f3->set('pet1',$pet1);
         $f3->set('pet2',$pet2);
 
