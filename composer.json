@@ -1,0 +1,16 @@
+{
+  "name": "328/pets-oop",
+  "authors": [
+    {
+      "name": "Rob Wood",
+      "email": "rwood3@mail.greeriver.edu"
+    }
+
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  },
+  "autoload": {
+    "classmap": ["classes/"]
+  }
+}
